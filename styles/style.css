@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .class1{
+    color: green;
+  }
+
+  #id1{
+    color: peru;
+  }
