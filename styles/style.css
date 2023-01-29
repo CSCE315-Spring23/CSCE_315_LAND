@@ -2,16 +2,68 @@ body {
     background-color: lightblue;
   }
   
-  h1 {
+  .page-name {
     color: navy;
     margin-left: 20px;
     font-size: 30px;
+   
   }
 
-  .class1{
-    color: green;
+  .page-name-div{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: 0px;
   }
 
-  #id1{
-    color: peru;
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+
+  .navbar-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #2C3639;
+    color: #fff;
+  }
+
+  #active{
+    border: 5px;
+    border-color: #DCD7C9;
+    border-style: solid;
+    border-radius: 25px;
+  }
+
+  .listObj{
+    float: left;
+    
+  }
+
+  .listButton{
+    border-radius: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #CB7028;
+    
+  }
+
+  .listButton:hover:not(.active) {
+    background-color: #DCD7C9;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    border: 5px;
+    border-color: #DCD7C9;
+    border-style: solid;
+    border-radius: 25px;
+  }
+
+  #lastOne{
+    border-right: none;
   }
