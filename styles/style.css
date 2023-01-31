@@ -106,35 +106,22 @@
     color: #fff;
   }
 
-  /* Buttons */
-
-  .button-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 3em;
-    font-size: 18px;
+  .navbar-block-lower{
     display: flex;
     justify-content: center;
+    padding: 2px;
+    background-color: #2C3639;
+    color: #fff;
   }
 
-  /* Components */
-  
+  /* Buttons */
 
-  .resume-div{
-    align-content: left;
-  }
 
-  
-
-  #active{
+  #listButton-active{
     border: 5px;
     border-color: #DCD7C9;
     border-style: solid;
     border-radius: 25px;
-  }
-
-  .listObj{
-    float: left;
   }
 
   .listButton{
@@ -181,10 +168,32 @@
     border-radius: 25px;
   }
 
+  .button-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Other Blocks */
+  
+
+  .block-resume{
+    align-content: left;
+  }
+
   .block-blank{
     height: 50px;
   }
 
-  #lastOne{
-    border-right: none;
-  }
+  
+
+  
+
+  
+
+  
+
+  
