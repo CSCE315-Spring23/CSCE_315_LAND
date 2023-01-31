@@ -1,6 +1,6 @@
 
 
- /* Parts */
+ /* Parts of the page */
 
   body {
     background-color: #3F4E4F;
@@ -10,7 +10,7 @@
     font-family: 'Roboto';
   }
 
-/* Text blocks */
+/* Text Blocks (Around Text) */
 
   .text-block{
     color: white;
@@ -22,13 +22,13 @@
     margin-top: 30px;
   }
 
-  .brown-text-block{
+  .text-block-alternate{
     color: white;
     background-color: #A27B5C;
     margin: 50px;
   }
 
-  .page-name-div{
+  .text-block-page-name{
     color: white;
     background-color: #A27B5C;
     border-radius: 5px;
@@ -37,7 +37,7 @@
     justify-content: center;
   }
 
-  /* Text paragraphs */
+  /* Text paragraphs (The text itself)*/
   .text-paragraph{
     color: white;
     font-size: 36px;
@@ -58,7 +58,7 @@
     
   }
 
-  .brown-text-paragraph{
+  .text-paragraph-alternate{
     color: white;
     font-size: 36px;
     margin-left: 150px;
@@ -69,7 +69,7 @@
     border-color: #A27B5C;
   }
   
-  .page-name {
+  .text-paragraph-page-name {
     color: white;
     margin-left: 20px;
     margin-right: 20px;
@@ -78,12 +78,17 @@
    
   }
 
-  /* Components */
-
-  .resume-div{
-    align-content: left;
+  /* Image classes */
+  .image-center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  width: 15%;
   }
 
+
+  /* Navbar */
   .navbar {
     list-style-type: none;
     display: flex;
@@ -96,12 +101,30 @@
   .navbar-block{
     display: flex;
     justify-content: center;
-   
     padding: 2px;
     background-color: #2C3639;
     color: #fff;
-
   }
+
+  /* Buttons */
+
+  .button-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Components */
+  
+
+  .resume-div{
+    align-content: left;
+  }
+
+  
 
   #active{
     border: 5px;
