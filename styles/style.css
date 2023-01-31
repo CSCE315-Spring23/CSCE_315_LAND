@@ -1,204 +1,194 @@
+/* Parts of the page */
 
+body {
+  background-color: #3F4E4F;
+  font-family: 'Roboto';
+}
 
- /* Parts of the page */
-
-  body {
-    background-color: #3F4E4F;
-    font-family: 'Roboto';
-  }
-  head{
-    font-family: 'Roboto';
-  }
+head {
+  font-family: 'Roboto';
+}
 
 /* Text Blocks (Around Text) */
 
-  .text-block{
-    color: white;
-    background-color: #9B978C;
-    border-radius: 5px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 100px;
-    margin-top: 30px;
-  }
+.text-block {
+  color: white;
+  background-color: #9B978C;
+  border-radius: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
 
-  .text-block-alternate{
-    color: white;
-    background-color: #A27B5C;
-    margin: 50px;
-  }
+.text-block-alternate {
+  color: white;
+  background-color: #A27B5C;
+  margin: 50px;
+}
 
-  .text-block-page-name{
-    color: white;
-    background-color: #A27B5C;
-    border-radius: 5px;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-  }
+.text-block-page-name {
+  color: white;
+  background-color: #A27B5C;
+  border-radius: 5px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
 
-  /* Text paragraphs (The text itself)*/
-  .text-paragraph{
-    color: white;
-    font-size: 36px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: center;
-    border-width: 30px;
-    border-style: solid;
-    border-color:#9B978C;
-  }
-  .text-paragraph-blank{
-    color: white;
-    font-size: 36px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 0px;
-    text-align: center;
-    
-  }
+/* Text paragraphs (The text itself)*/
+.text-paragraph {
+  color: white;
+  font-size: 36px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #9B978C;
+}
 
-  .text-paragraph-alternate{
-    color: white;
-    font-size: 36px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: center;
-    border-width: 30px;
-    border-style: solid;
-    border-color: #A27B5C;
-  }
-  
-  .text-paragraph-page-name {
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 62px;
-    text-align: center;
-   
-  }
+.text-paragraph-blank {
+  color: white;
+  font-size: 36px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0px;
+  text-align: center;
 
-  /* Image classes and ids*/
-  .image-center{
-    display: block;
+}
+
+.text-paragraph-alternate {
+  color: white;
+  font-size: 36px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #A27B5C;
+}
+
+.text-paragraph-page-name {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 62px;
+  text-align: center;
+
+}
+
+/* Image classes and ids*/
+.image-center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
   width: 15%;
-  }
+}
 
-    #image-novitech{
-      width: 30%;
-    }
-  
-
-
-  /* Navbar */
-  .navbar {
-    list-style-type: none;
-    display: flex;
-    gap: 3em;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .navbar-block{
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    background-color: #2C3639;
-    color: #fff;
-  }
-
-  .navbar-block-lower{
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    background-color: #2C3639;
-    color: #fff;
-  }
-
-  /* Buttons */
+#image-novitech {
+  width: 30%;
+}
 
 
-  #listButton-active{
-    border: 5px;
-    border-color: #DCD7C9;
-    border-style: solid;
-    border-radius: 25px;
-  }
 
-  .listButton{
-    border-radius: 25px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #CB7028;
-    
-  }
+/* Navbar */
+.navbar {
+  list-style-type: none;
+  display: flex;
+  gap: 3em;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
 
-  .listButton:hover {
-    background-color: #DCD7C9;
-    border-radius: 5px;
-    transition: 0.3s ease;
-    border: 5px;
-    border-color: #DCD7C9;
-    border-style: solid;
-    border-radius: 25px;
-  }
+.navbar-block {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  background-color: #2C3639;
+  color: #fff;
+}
+
+.navbar-block-lower {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  background-color: #2C3639;
+  color: #fff;
+}
+
+/* Buttons */
 
 
-  .actionButton{
-    border-radius: 25px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    background-color: #CB7028;
-    font-size: 36px;
-    
-  }
+#listButton-active {
+  border: 5px;
+  border-color: #DCD7C9;
+  border-style: solid;
+  border-radius: 25px;
+}
 
-  .actionButton:hover {
-    background-color: #DCD7C9;
-    border-radius: 5px;
-    transition: 0.3s ease;
-    border: 5px;
-    border-color: #DCD7C9;
-    border-style: solid;
-    border-radius: 25px;
-  }
+.listButton {
+  border-radius: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #CB7028;
 
-  .button-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 3em;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-  }
+}
 
-  /* Other Blocks */
-  
+.listButton:hover {
+  background-color: #DCD7C9;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  border: 5px;
+  border-color: #DCD7C9;
+  border-style: solid;
+  border-radius: 25px;
+}
 
-  .block-resume{
-    align-content: left;
-  }
 
-  .block-blank{
-    height: 50px;
-  }
+.actionButton {
+  border-radius: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-color: #CB7028;
+  font-size: 36px;
 
-  
+}
 
-  
+.actionButton:hover {
+  background-color: #DCD7C9;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  border: 5px;
+  border-color: #DCD7C9;
+  border-style: solid;
+  border-radius: 25px;
+}
 
-  
+.button-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 3em;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
 
-  
+/* Other Blocks */
 
-  
+
+.block-resume {
+  align-content: left;
+}
+
+.block-blank {
+  height: 50px;
+}
