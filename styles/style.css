@@ -126,7 +126,7 @@
     
   }
 
-  .listButton:hover:not(.active) {
+  .listButton:hover {
     background-color: #DCD7C9;
     border-radius: 5px;
     transition: 0.3s ease;
