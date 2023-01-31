@@ -78,7 +78,7 @@
    
   }
 
-  /* Image classes */
+  /* Image classes and ids*/
   .image-center{
     display: block;
   margin-left: auto;
@@ -86,6 +86,11 @@
   border-radius: 25px;
   width: 15%;
   }
+
+    #image-novitech{
+      width: 30%;
+    }
+  
 
 
   /* Navbar */
