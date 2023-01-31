@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-right: 50px;
     margin-left: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     margin-top: 30px;
   }
 
@@ -41,7 +41,7 @@
   /* Text paragraphs */
   .text-paragraph{
     color: white;
-    font-size: 42px;
+    font-size: 36px;
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
@@ -51,7 +51,7 @@
   }
   .text-paragraph-blank{
     color: white;
-    font-size: 42px;
+    font-size: 36px;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 0px;
@@ -61,7 +61,7 @@
 
   .brown-text-paragraph{
     color: white;
-    font-size: 42px;
+    font-size: 36px;
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
@@ -74,7 +74,7 @@
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 105px;
+    font-size: 62px;
     text-align: center;
    
   }
@@ -145,7 +145,7 @@
     padding: 14px;
     text-decoration: none;
     background-color: #CB7028;
-    font-size: 42px;
+    font-size: 36px;
     
   }
 
