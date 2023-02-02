@@ -10,13 +10,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css" id="mainStyleSheet">
 </head>
 
 <body>
   <script src="scripts/index.js"></script>
   <div class="navbar-block">
     <ul class="navbar">
+      <li><button onclick="toggleStyleSheet()" type="button" class="listButton">Toggle Style</button></li>
+      <script src="scripts/functions.js"></script>
       <li><a href="index.html" class="listButton">Home</a></li>
       <li><a href="technical-portfolio.html" class="listButton" id="listButton-active">Technical Portfolio</a></li>
       <li><a href="qualifications.html" class="listButton">Qualifications</a></li>

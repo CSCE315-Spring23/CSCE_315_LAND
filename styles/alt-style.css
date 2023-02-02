@@ -8,7 +8,7 @@
 /* Parts of the page */
 
 body {
-  background-color: #3F4E4F;
+  background-color: #474747;
   font-family: 'vt323';
 }
 
@@ -24,39 +24,48 @@ head {
 
 .text-block {
   color: white;
-  background-color: #9B978C;
+  background-color: #ffffff;
   border-radius: 5px;
   margin-right: 50px;
   margin-left: 50px;
   margin-bottom: 100px;
   margin-top: 30px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000000;
+
 }
 
 .text-block-alternate {
   color: white;
-  background-color: #A27B5C;
+  background-color: #000000;
   margin: 50px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #149414;
 }
 
 .text-block-page-name {
   color: white;
-  background-color: #A27B5C;
-  border-radius: 5px;
+  background-color: #000000;
   margin: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  border-style: solid;
+  border-width: medium;
+  border-color: #149414;
 }
 
 /* Text paragraphs (The text itself)*/
 .text-paragraph {
-  color: white;
+  color: black;
   font-size: 36px;
   margin-left: 150px;
   margin-right: 150px;
   text-align: center;
   border-width: 30px;
   border-style: solid;
-  border-color: #9B978C;
+  border-color: #ffffff;
 }
 
 .text-paragraph-blank {
@@ -74,18 +83,18 @@ head {
   font-size: 36px;
   margin-left: 150px;
   margin-right: 150px;
-  text-align: center;
+  text-align: left;
   border-width: 30px;
   border-style: solid;
-  border-color: #A27B5C;
+  border-color: #000000;
 }
 
 .text-paragraph-page-name {
   color: white;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-right: 20px;
   font-size: 62px;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -94,12 +103,20 @@ head {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px;
+  border-color: #149414;
+  border-style: solid;
+  border-width: medium;
   width: 15%;
+}
+
+.image-center:hover{
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
 }
 
 #image-novitech {
   width: 30%;
+  
 }
 
 
@@ -118,7 +135,7 @@ head {
   display: flex;
   justify-content: center;
   padding: 2px;
-  background-color: #2C3639;
+  background-color: #474747;
   color: #fff;
 }
 
@@ -126,7 +143,7 @@ head {
   display: flex;
   justify-content: center;
   padding: 2px;
-  background-color: #2C3639;
+  background-color: #474747;
   color: #fff;
 }
 
@@ -135,57 +152,57 @@ head {
 
 #listButton-active {
   border: 5px;
-  border-color: #DCD7C9;
+  border-color: #0E6B0E;
   border-style: solid;
-  border-radius: 25px;
+  
 }
 
 .listButton {
     font-family: 'vt323';
     border: none;
   font-size: 14px;
-  border-radius: 25px;
+
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #CB7028;
+  background-color: #000000;
 
 }
 
 .listButton:hover {
     font-family: 'vt323';
-  background-color: #DCD7C9;
-  border-radius: 5px;
+  background-color: #0E6B0E;
   transition: 0.3s ease;
   border: 5px;
   border-color: #DCD7C9;
   border-style: solid;
-  border-radius: 25px;
+  filter: drop-shadow(10px 10px 10px  green);
+  
 }
 
 
 .actionButton {
-  border-radius: 25px;
   display: block;
   color: white;
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  background-color: #CB7028;
+  background-color: #000000;
   font-size: 36px;
 
 }
 
 .actionButton:hover {
-  background-color: #DCD7C9;
+  background-color: #0E6B0E;
   border-radius: 5px;
   transition: 0.3s ease;
   border: 5px;
-  border-color: #DCD7C9;
+  border-color: #0E6B0E;
   border-style: solid;
-  border-radius: 25px;
+  filter: drop-shadow(10px 10px 10px  green);
+  
 }
 
 .button-ul {
