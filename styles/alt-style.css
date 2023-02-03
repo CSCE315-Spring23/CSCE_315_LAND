@@ -62,7 +62,7 @@ head {
   font-size: 36px;
   margin-left: 150px;
   margin-right: 150px;
-  text-align: center;
+  text-align: left;
   border-width: 30px;
   border-style: solid;
   border-color: #ffffff;
@@ -74,7 +74,7 @@ head {
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -109,9 +109,17 @@ head {
   width: 15%;
 }
 
+#image-normal{
+  display: none;
+}
+
+#image-alt{
+  display: show;
+}
+
 .image-center:hover{
     -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: sepia(100%);
+  filter: sepia(80%);;
 }
 
 #image-novitech {
@@ -157,9 +165,28 @@ head {
   
 }
 
+#listButton-active:hover {
+  font-family: 'vt323';
+  border: 5px;
+  border-color: #ffffff;
+  border-style: solid;
+  
+  
+font-size: 14px;
+
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+background-color: #0E6B0E;
+
+}
+
 .listButton {
     font-family: 'vt323';
-    border: none;
+    
+    
   font-size: 14px;
 
   display: block;
@@ -168,6 +195,7 @@ head {
   padding: 14px 16px;
   text-decoration: none;
   background-color: #000000;
+  cursor: pointer;
 
 }
 
@@ -176,9 +204,10 @@ head {
   background-color: #0E6B0E;
   transition: 0.3s ease;
   border: 5px;
-  border-color: #DCD7C9;
+  border-color: #ffffff;
   border-style: solid;
   filter: drop-shadow(10px 10px 10px  green);
+  transform: rotate(2deg);
   
 }
 
@@ -191,6 +220,7 @@ head {
   text-decoration: none;
   background-color: #000000;
   font-size: 36px;
+  cursor: pointer;s
 
 }
 
@@ -202,6 +232,7 @@ head {
   border-color: #0E6B0E;
   border-style: solid;
   filter: drop-shadow(10px 10px 10px  green);
+  transform: rotate(2deg);
   
 }
 

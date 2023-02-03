@@ -91,14 +91,47 @@ head {
   width: 15%;
 }
 
+.image-center:hover{
+  
+  filter: drop-shadow(10px 10px 10px  #ffffff);
+}
+
+#image-stack{
+  position: relative;
+}
+
 #image-novitech {
   width: 30%;
 }
 
 
 
+
+
+
+#image-normal{
+  display: show;
+}
+
+
+
+#image-normal:hover{
+display: show;
+}
+
+
+
+
+
+#image-alt{
+  display: none;
+}
+
+
+
 /* Navbar */
 .navbar {
+  
   list-style-type: none;
   display: flex;
   gap: 3em;
@@ -144,6 +177,7 @@ head {
   padding: 14px 16px;
   text-decoration: none;
   background-color: #CB7028;
+  cursor: pointer;
 
 }
 
@@ -167,6 +201,7 @@ head {
   text-decoration: none;
   background-color: #CB7028;
   font-size: 36px;
+  cursor: pointer;
 
 }
 

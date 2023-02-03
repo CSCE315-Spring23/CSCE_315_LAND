@@ -1,4 +1,5 @@
 
+
 function toggleStyleSheet(){
     // Task 1
     // Steps
@@ -10,11 +11,14 @@ function toggleStyleSheet(){
     
     // 1 (c) Determine new stylesheet file name
 
-    var myNewStyle = "styles/alt-style.css";
+    var myNewStyle = "styles/style.css";
     
     if(myStyleName == "styles/alt-style.css"){
         myNewStyle = "styles/style.css";
         
+    }
+    else {
+        myNewStyle = "styles/alt-style.css"
     }
     // 1 (d) replace stylesheet with new stylesheet (hint: element.setAttribute)
     myStyle.setAttribute("href",myNewStyle);
@@ -36,13 +40,14 @@ window.onload = function(){
 
     // Steps
     // 2 (a) get stylesheet name from local storage hint: localStorage.getItem(name)
-    var mySavedStyle = localStorage.getItem("myStyle");
+    var mySavedStyle = localStorage.getItem("myStyle") //|| "styles/style.css";
     // 2 (b) get html style element by ID
     var myStyle = document.getElementById("mainStyleSheet");
+    myStyle.setAttribute("href",mySavedStyle);
     // 2 (c) replace href attribute of html element.
-    if(mySavedStyle !=null){
-        myStyle.setAttribute("href",mySavedStyle);
-    }
+    //if(mySavedStyle !=null){
+    //    myStyle.setAttribute("href",mySavedStyle);
+    //}
     
     
 }
