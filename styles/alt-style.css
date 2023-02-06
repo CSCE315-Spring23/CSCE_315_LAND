@@ -183,12 +183,33 @@ background-color: #0E6B0E;
 
 }
 
-.listButton {
-    font-family: 'vt323';
-    
-    
-  font-size: 14px;
+.listButtonBottom {
+  font-family: 'vt323';
+  font-size: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #000000;
+  cursor: pointer;
 
+}
+
+.listButtonBottom:hover {
+  font-family: 'vt323';
+  background-color: #0E6B0E;
+  transition: 0.3s ease;
+  border: 5px;
+  border-color: #ffffff;
+  border-style: solid;
+  filter: drop-shadow(10px 10px 10px  green);
+  transform: rotate(2deg);
+}
+
+.listButton {
+  font-family: 'vt323';
+  font-size: 14px;
   display: block;
   color: white;
   text-align: center;
@@ -208,7 +229,6 @@ background-color: #0E6B0E;
   border-style: solid;
   filter: drop-shadow(10px 10px 10px  green);
   transform: rotate(2deg);
-  
 }
 
 
@@ -220,7 +240,7 @@ background-color: #0E6B0E;
   text-decoration: none;
   background-color: #000000;
   font-size: 36px;
-  cursor: pointer;s
+  cursor: pointer;
 
 }
 

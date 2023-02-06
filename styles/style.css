@@ -131,7 +131,6 @@ display: show;
 
 /* Navbar */
 .navbar {
-  
   list-style-type: none;
   display: flex;
   gap: 3em;
@@ -149,18 +148,35 @@ display: show;
   color: #fff;
 }
 
-.navbar-block-lower {
-  display: flex;
-  justify-content: center;
-  padding: 2px;
-  background-color: #2C3639;
-  color: #fff;
-}
+
 
 /* Buttons */
 
 
 #listButton-active {
+  border: 5px;
+  border-color: #DCD7C9;
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.listButtonBottom{
+  border: none;
+  font-size: 25px;
+  border-radius: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #CB7028;
+  cursor: pointer;
+}
+
+.listButtonBottom:hover {
+  background-color: #DCD7C9;
+  border-radius: 5px;
+  transition: 0.3s ease;
   border: 5px;
   border-color: #DCD7C9;
   border-style: solid;
@@ -219,7 +235,7 @@ display: show;
   list-style-type: none;
   display: flex;
   gap: 3em;
-  font-size: 18px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
 }
