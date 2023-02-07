@@ -40,7 +40,7 @@ window.onload = function(){
 
     // Steps
     // 2 (a) get stylesheet name from local storage hint: localStorage.getItem(name)
-    var mySavedStyle = localStorage.getItem("myStyle") //|| "styles/style.css";
+    var mySavedStyle = localStorage.getItem("myStyle") || "styles/style.css";
     // 2 (b) get html style element by ID
     var myStyle = document.getElementById("mainStyleSheet");
     myStyle.setAttribute("href",mySavedStyle);
